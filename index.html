@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GourmetBite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <nav
+      class="bg-white shadow-xl flex items-center justify-between py-4 px-36 fixed myNavBar"
+    >
+      <div class="text-3xl text-[#6F4E37] font-bold">GourmetBite</div>
+      <div class="flex gap-5">
+        <div class="translate-y-2.5 flex gap-5">
+          <a href="#home" class="text-[#6F4E37] hover:text-gray-900">Home</a>
+          <a href="#menu" class="text-[#6F4E37] hover:text-gray-900">Menu</a>
+          <a href="#about" class="text-[#6F4E37] hover:text-gray-900">about</a>
+          <a href="#bookTable" class="text-[#6F4E37] hover:text-gray-900"
+            >bookTable</a
+          >
+          <a href="#reviews" class="text-[#6F4E37] hover:text-gray-900"
+            >reviews</a
+          >
+        </div>
+        <a href="#">
+          <button
+            class="bg-orange-500 px-5 py-2 rounded-lg text-white hover:bg-orange-800 transition duration-500"
+          >
+            book a table
+          </button>
+        </a>
+      </div>
+    </nav>
+
+    <section id="home" class="p-40 pl-36">
+      <div data-aos="fade-right">
+        <h1 class="text-7xl text-white">Welcome to <br />GourmetBite</h1>
+        <p class="text-white mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Adipisci
+          nihil, nobis enim eius ratione odit!
+        </p>
+        <button
+          class="mt-5 bg-orange-500 px-5 py-2 rounded-lg text-white hover:bg-orange-800 transition duration-500"
+        >
+          view menu
+        </button>
+      </div>
+    </section>
+
+    <section class="p-10 bg-gray-100" id="menu">
+      <div class="text-center">
+        <h2 class="text-3xl text-[#6F4E37] font-bold">Our specialties</h2>
+        <p class="text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+      </div>
+      <div
+        class="mt-5 flex flex-col md:flex-row gap-4 justify-center items-center"
+      >
+        <div data-aos="fade-up">
+          <div
+            class="border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <img loading="lazy" src="images/pasta.png" alt="pasta" class="menu-image" />
+            <div class="flex flex-row justify-between">
+              <h2 class="text-xl text-[#6F4E37] font-bold">italien pasta</h2>
+              <p class="text-[#FFA500] text-xl font-bold">$10</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+        <div data-aos-delay="400" data-aos="fade-down">
+          <div
+            class="border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <img loading="lazy" src="images/beef.png" alt="pasta" class="menu-image"/>
+            <div class="flex flex-row justify-between">
+              <h2 class="text-xl text-[#6F4E37] font-bold">griled steak</h2>
+              <p class="text-[#FFA500] text-xl font-bold">$25</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+        <div data-aos-delay="800" data-aos="fade-up">
+          <div
+            class="border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <img loading="lazy" src="images/salad.png" alt="pasta" class="menu-image" />
+            <div class="flex flex-row justify-between">
+              <h2 class="text-xl text-[#6F4E37] font-bold">fresh salad</h2>
+              <p class="text-[#FFA500] text-xl font-bold">$15</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-3">
+        <button
+          class="bg-orange-500 px-5 py-2 rounded-lg text-white hover:bg-orange-800 transition duration-500"
+        >
+          view full menu
+        </button>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="bg-gray-200 py-8 px-36 flex flex-col gap-8 md:flex-row justify-between items-center"
+    >
+      <div data-aos="fade-right">
+        <h1 class="text-3xl text-[#6F4E37] font-bold">About Our Restaurant</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+          quibusdam alias. Omnis optio, placeat quibusdam, iste perferendis
+          molestiae soluta fuga recusandae eum adipisci laboriosam tenetur rem
+          minus necessitatibus saepe at? Reprehenderit omnis odio est ipsum
+          distinctio facere soluta possimus nam aperiam? Ducimus animi libero in
+          quasi fugiat nisi corporis ullam.
+        </p>
+        <button
+          class="mt-4 bg-[#654321] px-5 py-2 rounded-lg text-white hover:bg-orange-500 transition duration-500"
+        >
+          About us
+        </button>
+      </div>
+      <div data-aos-delay="300" data-aos="zoom-in">
+        <img loading="lazy" src="images/manEatSalad.png" alt="" />
+      </div>
+    </section>
+
+    <section id="bookTable" class="p-10">
+      <h1 class="text-3xl text-white text-center">Book a Table</h1>
+      <p class="text-white text-center">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <div class="flex flex-row gap-3 justify-center" data-aos="zoom-in">
+        <form>
+          <input type="datetime-local" class="py-2 rounded-lg" />
+          <input
+            type="number"
+            placeholder="how many persones"
+            class="py-2 rounded-lg"
+          />
+          <button
+            class="mt-4 bg-orange-500 px-6 py-2 rounded-lg text-white hover:bg-orange-800 transition duration-500"
+          >
+            book a table
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="p-10 bg-gray-100" id="reviews">
+      <div class="text-center">
+        <h2 class="text-3xl text-[#6F4E37] font-bold">Customer Reviews</h2>
+        <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div
+        class="mt-5 flex flex-col md:flex-row gap-4 justify-center items-center"
+      >
+        <div data-aos="fade-up">
+          <div
+            class="p-4 border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <p class="text-center star text-xl">★★★★★</p>
+            <div class="flex flex-row">
+              <img
+                src="images/x-person.png"
+                alt="persson"
+                class="persson mt-4"
+              />
+              <div class="mt-4">
+                <h2 class="text-xl font-bold">john</h2>
+                <p class="text-based">a pro chef</p>
+              </div>
+            </div>
+
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+        <div data-aos-delay="400" data-aos="fade-up">
+          <div
+            class="p-4 border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <p class="text-center star text-xl">★★★★★</p>
+            <div class="flex flex-row">
+              <img
+                src="images/x-person.png"
+                alt="persson"
+                class="persson mt-4"
+              />
+              <div class="mt-4">
+                <h2 class="text-xl font-bold">wilson</h2>
+                <p class="text-based">a customer chef</p>
+              </div>
+            </div>
+
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+        <div data-aos-delay="800" data-aos="fade-up">
+          <div
+            class="p-4 border border-gray-300 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-3 transition duration-500"
+          >
+            <p class="text-center star text-xl">★★★★★</p>
+            <div class="flex flex-row">
+              <img
+                src="images/x-person.png"
+                alt="persson"
+                class="persson mt-4"
+              />
+              <div class="mt-4">
+                <h2 class="text-xl font-bold">jasmin</h2>
+                <p class="text-based">a connoisseur</p>
+              </div>
+            </div>
+
+            <p class="">
+              Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Aut
+              veniam,
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-orange-500 p-5">
+      <p class="text-white text-center">جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+        duration: 1200,
+        easing: "ease-out-cubic",
+        delay: 220,
+      });
+    </script>
+  </body>
+</html>

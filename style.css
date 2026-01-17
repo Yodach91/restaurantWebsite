@@ -1,0 +1,40 @@
+#home {
+  background-image: url(images/heroBackgroun.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: serif;
+}
+
+.menu-image {
+  width: 20em;
+}
+
+.myNavBar {
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+#bookTable {
+  background-image: url(images/tableBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  padding: 0;
+}
+
+.star {
+  color: orange;
+}
+
+.persson {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
